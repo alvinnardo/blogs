@@ -27,8 +27,40 @@ tags:
   - msb: most significant bit 最高有效位
     
     
-    
-    
+
+### main.c
+
+#### 作用
+
+程序的入口，选择进入 Postmaster, bootstrap, postgres 模式
+
+
+
+#### 函数调用
+
+- init_address_fixup
+
+- PostmasterMain
+
+- BootstrapMain
+
+- PostgresMain
+
+
+
+### postgres.c
+
+#### 作用
+
+Postgres 的后端接口
+
+
+
+#### 函数调用
+
+
+
+
 
 ### 头文件调用关系
 
